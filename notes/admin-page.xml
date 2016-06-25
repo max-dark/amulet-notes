@@ -1,0 +1,55 @@
+<wml>
+    <card id="g" title="Северная улица" ontimer="g.php?sid=user.password.h">
+        <timer value="600"/>
+        <do name="b1" type="options" label="Пeрcoнaж">
+            <go href="g.php?sid=user.password.h&amp;cl=i&amp;cj=1"/>
+        </do>
+        <do name="b2" type="options" label="Cкaзaть">
+            <go href="g.php?sid=user.password.h&amp;cs=1&amp;cj=1"/>
+        </do>
+        <do name="b3" type="options" label="Koнтaкты">
+            <go href="g.php?sid=user.password.h&amp;msg=1&amp;cj=1"/>
+        </do>
+        <do name="b4" type="options" label="мaкpocы">
+            <go href="g.php?sid=user.password.h&amp;cm=new"/>
+        </do>
+        <do name="b5" type="options" label="Coxpaнить">
+            <go href="g.php?sid=user.password.h&amp;ce=1"/>
+        </do>
+        <p>
+            <small>20/20 (20/20)<br/>---
+                <br/>
+                <a href="g.php?sid=user.password.h&amp;go=x1029x450">к северным воротам</a>
+                <br/>
+                <a href="g.php?sid=user.password.h&amp;go=x1082x474">на восток</a>
+                <br/>
+                <a href="g.php?sid=user.password.h&amp;go=x1039x492">на юг</a>
+                <br/>
+                <a href="g.php?sid=user.password.h&amp;go=x1017x471">на запад</a>
+                <br/>
+                <a href="g.php?sid=user.password.h">обновить</a>
+                <br/>
+                <a href="g.php?sid=user.password.h&amp;ci=1">Инфo</a>
+                <br/>
+                <a href="g.php?sid=user.password.h&amp;adm=rsn">res</a>
+                <br/>
+                <a href="g.php?sid=user.password.h&amp;adm=smp&amp;fmust=1">admin</a>
+            </small>
+        </p>
+    </card>
+    <card id="m" title="Меню">
+        <p>
+            <small>
+                <a href="g.php?sid=user.password.h&amp;cs=$(to)">Говорить/Взять</a>
+                <br/>
+                <a href="g.php?sid=user.password.h&amp;ca=$(to)">Атаковать</a>
+                <br/>
+                <a href="g.php?sid=user.password.h&amp;to=$(to)&amp;cl=i">предмет</a>
+                <a href="g.php?sid=user.password.h&amp;to=$(to)&amp;use=i.1">1</a>
+                <a href="g.php?sid=user.password.h&amp;to=$(to)&amp;use=i.2">2</a>
+                <br/>
+                <a href="g.php?sid=user.password.h&amp;ci=$(to)">Инфo</a>
+            </small>
+        </p>
+    </card>
+</wml>

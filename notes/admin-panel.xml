@@ -1,0 +1,91 @@
+<wml>
+    <card id="g" title="x1032x471">
+        <do name="b1" type="options" label="В игру">
+            <go href="g.php?sid=user.password.v"/>
+        </do>
+        <do name="b2" type="accept" label="Назад">
+            <prev/>
+        </do>
+        <p>
+            <input name="inp" emptyok="true"/>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=tln&amp;inp=$(inp)">teleport (loc)</a>
+            <a href="#tele">[select]</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=mnn&amp;inp=$(inp)">money (count)</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=filter&amp;inp=$(inp)">additem (filter)</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=gdn">god (0)</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=getibm">[items,bank,magic]</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=view&amp;inp=$(inp)">view (field|login|loc|t)</a>
+            <br/>
+            <input name="val" emptyok="true"/>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=adni&amp;inp=$(inp)&amp;val=$(val)&amp;new=$(new)">
+                add(item,count,[bank|loc])
+            </a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=del&amp;inp=$(inp)&amp;val=$(val)&amp;new=$(new)">
+                delete(item,count|all,[bank])
+            </a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=gtp&amp;inp=$(inp)&amp;val=$(val)">get (field,index)</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=unset&amp;inp=$(inp)&amp;val=$(val)">unset (field,index)</a>
+            <br/>
+            <input name="new" emptyok="true"/>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=stn&amp;inp=$(inp)&amp;val=$(val)&amp;new=$(new)">
+                set(field,index,val)
+            </a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=skillinfo">[skill info]</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=locmail&amp;inp=$(inp)">mail_loc(email)</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=reploc&amp;inp=$(inp)">load_bank(npc)</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=resp&amp;inp=$(inp)&amp;val=$(val)&amp;new=$(new)">timer
+                (id,min,max)
+            </a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=guard&amp;inp=$(inp)">guard (1|0)</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=setgclan&amp;inp=$(inp)&amp;val=$(val)">
+                setgclan (clan,glava)
+            </a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=ban&amp;inp=$(inp)">CLEAR(skills=1)</a>
+            <br/>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=stop&amp;inp=$(inp)">stop 5 min(msg)</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=play">play (msg: 0)</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=blank">blank world</a>
+
+        </p>
+    </card>
+    <card id="tele" title="Телепорт">
+        <p>
+            <a href="g.php?sid=user.password.v&amp;adm=tln&amp;inp=_begin">Начало</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=tln&amp;inp=x1092x474">Банк</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=tln&amp;inp=x1284x393">Кладбище</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=tln&amp;inp=x902x254">Замок</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=tln&amp;inp=x1486x247">Пещера</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=tln&amp;inp=x2169x273">Ансалон</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=tln&amp;inp=x1778x493">Крепость</a>
+            <br/>
+            <a href="g.php?sid=user.password.v&amp;adm=tln&amp;inp=x2247x786">Подземелье</a>
+        </p>
+    </card>
+</wml>

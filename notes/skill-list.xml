@@ -1,0 +1,79 @@
+<wml>
+    <card id="g" title="Навыки">
+        <do name="b1" type="options" label="В игру">
+            <go href="g.php?sid=rastoman.123456.o"/>
+        </do>
+        <do name="b2" type="accept" label="Назад">
+            <prev/>
+        </do>
+        <p>
+            <small><a href="g.php?sid=rastoman.123456.o&amp;look=skill.str">Сила</a>: 1
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.dex">Ловкость</a>: 1
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.int">Интеллект</a>: 1<br/>
+                Опыт: 0/50<br/>
+                Очки опыта: 2<br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.meditation">Медитация</a>: 0
+                <a href="g.php?sid=rastoman.123456.o&amp;use=skill.meditation">[+]</a>
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.steal">Кража</a>: 0
+                <a href="g.php?sid=rastoman.123456.o&amp;use=skill.steal">[+]</a>
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.animaltaming">Прир.животных</a>: 0
+                <a href="g.php?sid=rastoman.123456.o&amp;use=skill.animaltaming">[+]</a>
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.hand">Рукопашная</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.coldweapon">Холодн.оружие</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.ranged">Стрельба</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.parring">Парирование</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.uklon">Уклон</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.magic">Магия</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.magic_resist">Сопр.магии</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.magic_uklon">Уклон от магии</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.regeneration">Регенерация</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.hiding">Скрытность</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.look">Осторожность</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.steallook">Подглядывание</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.animallore">Изуч.животных</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.spirit">Спиритизм</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.healing">Лечение</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.alchemy">Алхимия</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.mine">Рудокоп</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.smith">Кузнец</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.lumb">Лесоруб</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.bow">Плотник</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.stone">Ювелир</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.fish">Рыболов</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.food">Повар</a>: 0
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.necro"> </a>: 0
+                <a href="g.php?sid=rastoman.123456.o&amp;use=skill.necro">[+]</a>
+                <br/>
+                <a href="g.php?sid=rastoman.123456.o&amp;look=skill.currier">Друид</a>: 0
+            </small>
+        </p>
+    </card>
+</wml>
