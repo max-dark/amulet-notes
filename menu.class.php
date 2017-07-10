@@ -13,10 +13,11 @@ class Menu
         $keys = array_keys($menu);
         $id = 0;
         foreach ($keys as $key) {
-            if (in_array($key, [Loader::l_key, 0, 1, 2]))
+            if (in_array($key, [Loader::l_key, 0, 1, 2])) {
                 echo sprintf("..:: %s ::..\n", $menu[$key]);
-            else
+            } else {
                 echo sprintf("%d %s\n", $id, $menu[$key]);
+            }
             $id++;
         }
         echo sprintf("%d %s\n", 0, '[exit]');
