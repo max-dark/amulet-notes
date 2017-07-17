@@ -1,4 +1,4 @@
-# Список атрибутов/умений(skills)
+# Список атрибутов/умений(User::skills)
 
 `$skills = explode("|", $loc_i[$loc][$login]["skills"]);`
 
